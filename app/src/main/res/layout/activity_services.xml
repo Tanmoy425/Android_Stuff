@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bus_services"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:background="@drawable/border"
+            android:textColor="#f04f9a"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/first_bus">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:src="@drawable/first_bus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:text="First Bus"
+                android:layout_marginStart="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#d914b5"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/arriva">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="100dp"
+                android:src="@drawable/arriva"
+                android:layout_gravity="left" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:text="Arriva"
+                android:layout_marginStart="20dp"
+                android:textSize="30sp"
+                android:textColor="#1491d9"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/hedingham">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hedingham"
+                android:layout_gravity="left" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:text="Hedingham"
+                android:layout_marginStart="20dp"
+                android:textSize="30sp"
+                android:textColor="#d91414"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/national_express">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="100dp"
+                android:src="@drawable/national_express"
+                android:layout_gravity="left" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:text="National Express"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:textColor="#2010cc"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hospitals"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#ad0303"
+            android:textAllCaps="true"
+            android:background="@drawable/border"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/general_hospital">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="100dp"
+                android:src="@drawable/general_hospital"
+                android:layout_gravity="left" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:text="Colchester General Hospital"
+                android:layout_marginStart="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#142ca6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/Oaks_hospital">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="100dp"
+                android:src="@drawable/oaks"
+                android:layout_gravity="left" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center"
+                android:text="Oaks Hospital"
+                android:layout_marginStart="20dp"
+                android:textSize="30sp"
+                android:textColor="#561eb0"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cab services"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#a41fbf"
+                android:background="@drawable/border"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/panther_cabs">
+
+                <ImageView
+                    android:layout_width="108dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/panther_cabs"
+                    android:layout_gravity="left" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center"
+                    android:text="Panther Cabs"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#6339cc"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/five">
+
+                <ImageView
+                    android:layout_width="108dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/five"
+                    android:layout_gravity="left" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center"
+                    android:text="five Eights Taxi"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#db2525"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Train Stations"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:background="@drawable/border"
+                android:textColor="#d1530f"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/cns">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/map_icon"
+                    android:layout_gravity="left" />
+
+                <TextView
+                    android:id="@+id/station1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center"
+                    android:text="Colchester North Station"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#e89b35"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/cts">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/map_icon"
+                    android:layout_gravity="left" />
+
+                <TextView
+                    android:id="@+id/station2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center"
+                    android:text="Colchester Town Station"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#ab952b"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/hythe">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/map_icon"
+                    android:layout_gravity="left" />
+
+                <TextView
+                    android:id="@+id/station3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center"
+                    android:text="Hythe Station"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#e8d909"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Airports"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:background="@drawable/border"
+                android:textColor="#0d9c0b"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/stanstead">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Stanstead Airport \n approx 34 miles"
+                    android:textColor="#045e1c"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/southend">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Southend Airport \n Approx 42miles"
+                    android:textColor="#03693e"
+                    android:textStyle="bold"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

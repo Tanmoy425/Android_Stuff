@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".History">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="History of Colchester"
+                android:layout_marginTop="15dp"
+                android:textSize="40sp"
+                android:textColor="#8f420b"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="left"
+                android:text="@string/history"
+                android:textStyle="italic"
+                android:textColor="#b52305"
+                android:textSize="25sp"/>
+
+            <LinearLayout
+                android:layout_width="385dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/colchester_1" />
+
+                <ImageView
+                    android:layout_width="204dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="7dp"
+                    android:src="@drawable/colchester_2"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/history_body"
+                android:textColor="#e63815"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:text="https://en.wikipedia.org/wiki/History_of_Colchester"
+                android:textColor="#e63815"
+                android:textSize="22sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

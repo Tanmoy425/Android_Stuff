@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/shopping"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="#140ced"
+            android:backgroundTintMode="src_over"
+            android:alpha="0.8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="left|center"
+                    android:paddingLeft="40dp"
+                    android:text="Shopping"
+                    android:textColor="#09005e"
+                    android:textSize="35sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="100dp"
+                    android:paddingLeft="40dp"
+                    android:src="@drawable/slide2" />
+
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/water_world"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="#9c0ee8"
+            android:backgroundTintMode="src_over"
+            android:alpha="0.6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="left|center"
+                    android:layout_marginStart="20dp"
+                    android:text="water sports"
+                    android:textColor="#09005e"
+                    android:textSize="35sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/canoeing"
+                    android:layout_marginStart="100dp"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/adventure_world"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="#4d57e3"
+            android:backgroundTintMode="src_over"
+            android:alpha="0.6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="left|center"
+                    android:paddingLeft="20dp"
+                    android:text="Fun World"
+                    android:textColor="#09005e"
+                    android:textSize="35sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bowling1"
+                    android:layout_marginStart="200dp"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/wivenhoe"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="#e009e3"
+            android:backgroundTintMode="src_over"
+            android:alpha="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="left|center"
+                    android:paddingLeft="20dp"
+                    android:text="Walk on the trail"
+                    android:textColor="#09005e"
+                    android:textSize="35sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/trail_walk"
+                    android:layout_marginStart="100dp"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="#c9127a"
+            android:id="@+id/museum"
+            android:backgroundTintMode="src_in"
+            android:alpha="0.8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="198dp"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="left|center"
+                    android:paddingLeft="20dp"
+                    android:text="Natural History Museum"
+                    android:textColor="#09005e"
+                    android:textSize="35sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/museum"
+                    android:layout_marginStart="100dp"/>
+
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/NaturePark"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="#b50d48"
+
+            android:backgroundTintMode="src_in"
+            android:alpha="0.7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="198dp"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="left|center"
+                    android:paddingLeft="20dp"
+                    android:text="Wivenhoe Park"
+                    android:textColor="#09005e"
+                    android:textSize="35sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/wivenhoe_park"
+                    android:layout_marginStart="100dp"/>
+
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</ScrollView>

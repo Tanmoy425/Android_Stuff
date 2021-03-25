@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <RelativeLayout
+       android:layout_weight="2"
+       android:layout_width="match_parent"
+       android:layout_height="1dp">
+
+       <TextView
+           android:id="@+id/textGrid"
+           android:text="WELCOME to the city of Colchester"
+           android:textAllCaps="true"
+           android:gravity="center_horizontal"
+           android:textStyle="bold|italic"
+           android:shadowColor="@color/purple_700"
+           android:textSize="40sp"
+           android:textColor="@color/white"
+           android:layout_centerInParent="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+   </RelativeLayout>
+    <GridLayout
+        android:columnCount="2"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp">
+
+    <!-- row 1 -->
+
+    <!-- column 1 -->
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="#650ef0"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:id="@+id/places"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+           >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="97dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/castle_park2" />
+
+            <TextView
+                android:id="@+id/place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Places to Visit"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- column 2 -->
+    <androidx.cardview.widget.CardView
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="#650ef0"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:id="@+id/restaurants"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:src="@drawable/church_street_tavern"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="97dp"/>
+
+                <TextView
+                    android:id="@+id/restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Restaurants"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    <!-- row 2 -->
+
+    <!-- column 1 -->
+    <androidx.cardview.widget.CardView
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/purple_700"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:id="@+id/activities"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="97dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/bowling1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Activities"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    <!-- column 2 -->
+    <androidx.cardview.widget.CardView
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/purple_700"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/history"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="97dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/old_colchester" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="History"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    <!-- row 3 -->
+
+    <!-- column 1 -->
+    <androidx.cardview.widget.CardView
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="#7428bf"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:id="@+id/GeneralInfo"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="97dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/bg1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="General Info"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    <!-- column 2 -->
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#7428bf"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:id="@+id/services"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/first_bus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Services"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
